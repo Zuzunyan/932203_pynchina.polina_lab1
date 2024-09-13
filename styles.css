@@ -22,14 +22,14 @@ body {
   color: white;
   padding: 20px;
   margin: 0px;
-  margin-left: 20%;
-  margin-right: 20%;
-  font-family: Arial, Helvetica, sans-serif; 
-  h1 {
-    font-size: 30pt;
-   } 
-  
+  margin-left: 30%;
+  margin-right: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
+h1{
+  font-size: 3em;
+}  
 
 .square {
   width: 150px;
@@ -55,9 +55,6 @@ a:link{
   margin-left: 10px;
 }
 
-/* .here{
-  color: red;
-} */
 .value2{
   color:aqua;
   font-size: larger;
@@ -66,18 +63,24 @@ a:link{
 
 .visual_styles{
   display: inline-block;
-  
-}
-.table{
-  display: inline-block;
-  /* float: inline-end; */
-  
-  
 }
 
-.td{
-  width: 100px;
-  height: 100px;
-  border: solid 1px silver;
-  text-align: center;
+.table{
+  float: right;
+  width: 200px;
+  height: 200px;
+}
+
+td{
+  width: 50px; 
+	height: 40px; 
+	border: solid 1px silver; 
+	text-align: center;
+	vertical-align: bottom;
+	margin: 0;
+}
+img{
+  float: right;
+  margin-top: 10px;
+  position: sticky;
 }
